@@ -1,0 +1,86 @@
+.xp-explorer { background: #ece9d8; color: #000; }
+.xp-explorer .xp-toolbar { padding: 5px 7px; background: linear-gradient(to bottom,#f8f6ec,#ece9d8); border-bottom: 1px solid #bcb9a8; }
+.xp-explorer .xp-toolbar button, .xp-explorer .xp-address button { border: 1px solid transparent; border-radius: 2px; box-shadow: none; background: transparent; padding: 3px 5px; }
+.xp-explorer .xp-toolbar button:hover, .xp-explorer .xp-address button:hover { background: #fff5cf; border-color: #d1b767; }
+.xp-explorer .xp-toolbar button:disabled { opacity: .45; }
+.xp-explorer .xp-brand { color: #4367ac; font-style: italic; font-weight: bold; font-size: 22px; }
+.xp-explorer .xp-address { padding: 4px 8px; border-bottom: 1px solid #b7b9aa; }
+.xp-explorer .xp-address entry { border: 1px solid #7f9db9; border-radius: 0; min-height: 22px; padding: 2px 5px; background: white; color: black; }
+.xp-explorer .xp-task-pane { background: linear-gradient(to bottom,#7ba3e4,#657ed3); padding: 15px 12px; }
+.xp-explorer .xp-card { border: 1px solid #fff; border-radius: 4px 4px 0 0; }
+.xp-explorer .xp-card-heading { color: #1d428c; font-weight: bold; background: linear-gradient(to right,#fff,#c6d6f7); padding: 7px 10px; border-radius: 3px 3px 0 0; }
+.xp-explorer .xp-card-body { background: #d6dff7; padding: 8px 7px; color: #21438a; }
+.xp-explorer .xp-task-link { background: transparent; border: none; box-shadow: none; border-radius: 0; color: #21438a; padding: 4px 2px; }
+.xp-explorer .xp-task-link:hover { color: #0033aa; background: #c7d6f4; }
+.xp-explorer .xp-main, .xp-explorer iconview, .xp-explorer treeview { background: white; color: black; }
+.xp-explorer .xp-main { padding: 0; }
+.xp-explorer .xp-group-heading { color: #18356a; font-weight: bold; font-size: 15px; border-bottom: 1px solid #8fa8ca; padding-bottom: 5px; }
+.xp-explorer .xp-drive-name { color: black; }
+.xp-explorer .xp-drive-sub { color: #626262; font-size: 12px; }
+.xp-explorer flowboxchild { border: 1px solid transparent; border-radius: 0; padding: 0; }
+.xp-explorer flowboxchild:hover { background: #eef4ff; border-color: #c7dafa; }
+.xp-explorer flowboxchild:selected { background: #d9e6ff; border-color: #799bcf; }
+.xp-explorer iconview:selected, .xp-explorer treeview:selected { background: #316ac5; color: white; }
+.xp-explorer .xp-task-pane treeview { background: #fff; color: #173a78; }
+
+.xp-explorer viewport, .xp-explorer scrolledwindow, .xp-explorer stack { background-color: white; }
+
+.xp-explorer .xp-workarea { background: #ffffff; }
+.xp-explorer .xp-task-pane viewport, .xp-explorer .xp-task-pane scrolledwindow { background: transparent; }
+.xp-explorer .xp-side-switch { background: linear-gradient(to bottom,#fff,#e5edff); border: 1px solid #f8fbff; border-radius: 4px; color: #174891; padding: 6px 8px; font-weight: bold; box-shadow: 0 1px 2px alpha(#183e7f,.35); }
+.xp-explorer .xp-side-switch:hover { background: linear-gradient(to bottom,#fff9e4,#ffdda1); border-color: #e7a23a; color: #123b85; }
+.xp-explorer .xp-side-switch:focus { outline: 1px dotted #24579a; outline-offset: -3px; }
+.xp-explorer .xp-tree-pane { background: linear-gradient(to bottom,#7ba3e4,#657ed3); padding: 15px 8px 8px; }
+.xp-explorer .xp-folder-tree { background: white; color: #17345f; font-size: 13px; }
+.xp-explorer .xp-folder-tree:selected { background: #316ac5; color: white; }
+.xp-explorer .xp-preview { background: #f3f6fc; border-left: 1px solid #b4c6df; padding: 10px; color: #204582; }
+/* Distinct categories without changing the classic white XP workspace. */
+.xp-explorer .xp-computer-section { border: 1px solid #ccd9ed; border-radius: 3px; padding: 10px 12px; background: linear-gradient(to bottom,#f5f8ff,#fff); }
+.xp-explorer .xp-group-heading { border-bottom: 1px solid #a5bedf; padding-bottom: 6px; }
+.xp-explorer .xp-toolbar { padding: 4px 5px; }
+.xp-explorer .xp-toolbar button { padding: 3px; }
+.xp-explorer notebook { background: #ece9d8; }
+.xp-explorer notebook > header { background: #ece9d8; }
+.xp-explorer .xp-folder-tree { -GtkTreeView-horizontal-separator: 3; }
+
+/* Detached GTK menus need an explicit class. */
+menu.xp-context-menu { background: #f5f4e9; color: #111; border: 1px solid #7b7b7b; border-radius: 0; padding: 3px; }
+menu.xp-context-menu menuitem { min-height: 24px; padding: 3px 22px 3px 12px; border-radius: 0; }
+menu.xp-context-menu menuitem:hover { background: #316ac5; color: white; }
+menu.xp-context-menu separator { background: #aca899; min-height: 1px; margin: 4px 3px; }
+
+menu.xp-context-menu { box-shadow: 2px 3px 3px alpha(#000000,.25); }
+menu.xp-context-menu menuitem { padding-left: 6px; padding-right: 14px; }
+menu.xp-context-menu menuitem:disabled { color: #888888; }
+
+.xp-transfer {background:#ece9d8;color:#111;}
+.xp-transfer progressbar trough {background:#fff;border:1px solid #7f9db9;border-radius:2px;padding:2px;}
+.xp-transfer progressbar progress {min-height:13px;border:0;border-radius:0;background-color:#55b934;background-image:linear-gradient(to right,transparent 75%,#fff 75%),linear-gradient(to bottom,#c4ef97,#50b92b 55%,#a6e47a);background-size:10px 16px,auto;}
+.xp-transfer button {min-width:82px;min-height:23px;padding:2px 9px;}
+
+/* Search Companion: original XP-style task card, legible even with a dark host. */
+.xp-explorer .xp-search-card { background: #d6dff7; color: #173a78; border: 1px solid #fff; border-radius: 10px; padding: 10px; }
+.xp-explorer .xp-search-card label { color: #173a78; }
+.xp-explorer .xp-search-card entry { background: #fff; color: #000; border: 1px solid #7f9db9; border-radius: 0; padding: 4px; }
+.xp-explorer .xp-search-card button { background: linear-gradient(to bottom,#fff,#ece9d8); color: #111; border: 1px solid #7f9db9; border-radius: 3px; }
+.xp-explorer .xp-search-card button:disabled { color: #6a6a66; background: #e5e3d7; }
+.xp-explorer .xp-search-card button:hover { border-color: #e6b541; }
+.xp-explorer .xp-search-card .xp-card-heading { background: transparent; padding: 3px 0; }
+.xp-explorer .xp-task-pane > checkbutton label { color: #102e66; }
+
+/* Search companion is part of the Explorer's left pane, not a dialog. */
+.xp-explorer .xp-search-pane, .xp-explorer .xp-search-blue,
+.xp-explorer .xp-search-pane viewport, .xp-explorer .xp-search-pane scrolledwindow { background: linear-gradient(to bottom,#7fa4e5,#637bd2); color:#111; }
+.xp-explorer .xp-search-header { background:#ece9d8; color:#111; padding:4px 7px; border-bottom:1px solid #b8b5a5; }
+.xp-explorer .xp-search-header button { background:transparent; border:0; box-shadow:none; padding:0 5px; min-height:20px; min-width:20px; color:#111; font-size:18px; }
+.xp-explorer .xp-search-header button:hover { background:#fff5cf; }
+.xp-explorer .xp-search-card { background:#d6dff7; color:#111; border-radius:10px; padding:8px 10px; }
+.xp-explorer .xp-search-card label { color:#111; }
+.xp-explorer .xp-search-heading { font-weight:bold; padding-bottom:5px; }
+.xp-explorer .xp-search-card .xp-search-link { background:transparent; border:0; box-shadow:none; padding:3px 0; }
+.xp-explorer .xp-search-card .xp-search-link:hover label { color:#003399; text-decoration:underline; }
+.xp-explorer .xp-search-section { color:#111; padding:3px 0; }
+.xp-explorer .xp-search-section > title { font-weight:bold; }
+.xp-explorer .xp-search-results { background:#fff; }
+.xp-explorer .xp-search-results treeview header button { border-radius:0; background:#ece9d8; color:#111; border:1px solid #aca899; }
+.xp-explorer .xp-toolbar button.xp-search-active { border:1px solid #7f9db9; background:linear-gradient(to bottom,#fff,#e0dfd1); box-shadow:inset 0 1px 2px alpha(#334466,.2); }

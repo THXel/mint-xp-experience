@@ -1,0 +1,14 @@
+{
+  "frontend/src/App.jsx": [
+    [
+      "  const [scale, setScale] = React.useState(1);\n",
+      "  const [scale, setScale] = React.useState(1.5);\n"
+    ]
+  ],
+  "frontend/src/Minesweeper/MinesweeperView.jsx": [
+    [
+      "  const [openOption, setOpenOption] = useState(null);\n",
+      "  const [openOption, setOpenOption] = useState('');\n"
+    ]
+  ]
+}

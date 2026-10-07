@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64"><defs>
+<linearGradient id="gold" x2=".25" y2="1"><stop stop-color="#fff8b8"/><stop offset=".44" stop-color="#ffdf71"/><stop offset="1" stop-color="#df9a28"/></linearGradient>
+<linearGradient id="blue" x2=".65" y2="1"><stop stop-color="#b6edff"/><stop offset=".42" stop-color="#4298ec"/><stop offset="1" stop-color="#174aa3"/></linearGradient>
+<linearGradient id="metal" x2=".2" y2="1"><stop stop-color="#fff"/><stop offset=".48" stop-color="#e3e8ec"/><stop offset="1" stop-color="#8393a7"/></linearGradient>
+<linearGradient id="green" x2=".25" y2="1"><stop stop-color="#d3f594"/><stop offset=".48" stop-color="#79c146"/><stop offset="1" stop-color="#2f7b23"/></linearGradient>
+<linearGradient id="red" x2=".2" y2="1"><stop stop-color="#ffd0af"/><stop offset=".42" stop-color="#f67c4c"/><stop offset="1" stop-color="#bb302b"/></linearGradient>
+<linearGradient id="paper" x2=".1" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#e7eef9"/></linearGradient>
+</defs><ellipse cx="32" cy="57" rx="25" ry="3" fill="#213955" opacity=".16"/><path d="M7 21L32 10L57 21V48L32 58L7 48Z" fill="url(#gold)" stroke="#a37639"/><path d="M7 21L32 32L57 21M32 32V58" fill="none" stroke="#af8544"/><path d="M22 15L46 26V36L38 40V30L15 19Z" fill="#fff4c8" opacity=".8"/></svg>

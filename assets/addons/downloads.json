@@ -1,0 +1,35 @@
+{
+  "jspaint.tar.gz": {
+    "name": "jspaint.tar.gz",
+    "url": "https://api.github.com/repos/1j01/jspaint/tarball/53be67ab8c47cc0d2168899e7481bc04839c4c81",
+    "sha256": "80e662b5a8988b17725645f7878f17c57bdf799f9ec96510818305e54fe5d148",
+    "size": 23784663
+  },
+  "mines-source.tar.gz": {
+    "name": "mines-source.tar.gz",
+    "url": "https://api.github.com/repos/AkshayKalose/Minesweeper-XP/tarball/a378a27f8b71bf0eb463b6849b92bfc9f48d43bd",
+    "sha256": "1142a8c68c3859196eac9e02f927aec4d30d97278d35c448c4a010798ab23419",
+    "size": 8558542
+  },
+  "node.tar.xz": {
+    "name": "node.tar.xz",
+    "url": "https://nodejs.org/dist/v22.23.3/node-v22.23.3-linux-x64.tar.xz",
+    "sha256": "df450af89261115ef9f9e3830c3eeb2cc9213b63c720b1af623cb5dcbe2e02de",
+    "size": 31001304
+  },
+  "solitaire.jar": {
+    "url": "https://github.com/danielricci/solitaire/releases/download/1.1/Solitaire.jar",
+    "sha256": "27b697d66a260d7f73733b40af39aeda341206e89e68876d3a15cd70aa908218",
+    "size": 485640
+  },
+  "java.tar.gz": {
+    "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u504-b01/OpenJDK8U-jre_x64_linux_hotspot_8u504b01.tar.gz",
+    "sha256": "52dcd578baca1d3e449ea86768a9129c0ee04d7b22565695498353cc66940c61",
+    "size": 41844148
+  },
+  "solitaire-license": {
+    "url": "https://raw.githubusercontent.com/danielricci/solitaire/c760b4a/LICENSE",
+    "sha256": "67ff8c9c23f921e101b6c6b4fea42b9c44a107b6c4ca8cba3f9d646ee59b0654",
+    "size": 1093
+  }
+}

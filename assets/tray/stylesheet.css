@@ -1,0 +1,27 @@
+/* Never inherit a full-height task-button frame from the desktop theme. */
+#panel .xp-tray-toggle, #panel .xp-tray-toggle:hover,
+#panel .xp-tray-toggle:active, #panel .xp-tray-toggle:checked,
+#panel .xp-tray-toggle:focus {
+ padding: 0 2px; margin: 0; spacing: 0;
+ border: 0; border-image: none; border-radius: 0;
+ background-color: transparent; background-image: none; background-gradient-direction: none;
+ box-shadow: none; outline: none;
+}
+#panel .xp-tray-toggle .xp-tray-chevron {
+ padding: 0; margin: 0; border: 0; background-color: transparent;
+ border-image: none; box-shadow: none; icon-size: 20px;
+}
+.xp-tray-divider { background-color: #1282d4; border-right: 1px solid #9dd3fb; }
+.xp-tray-insert { background-color: #ffb53a; border: 1px solid #9b4f00; }
+.xp-tray-editor { spacing: 12px; padding: 8px; }
+.xp-tray-column { spacing: 8px; width: 244px; }
+.xp-tray-heading { color: #16418a; font-weight: bold; font-size: 11pt; }
+.xp-tray-help { color: #354d73; font-size: 10pt; padding: 6px; }
+.xp-tray-drop { background-color: #f8fbff; border: 1px solid #88a9d2; border-radius: 3px; padding: 5px; spacing: 3px; min-height: 90px; }
+.xp-tray-drop:drop { background-color: #d5e6ff; border-color: #1b5fcc; }
+.xp-tray-row { color: #122b50; border-radius: 2px; padding: 6px; spacing: 8px; }
+.xp-tray-row:hover, .xp-tray-row:focus { background-color: #316ac5; color: white; }
+.xp-tray-drag { padding: 5px; spacing: 8px; background-color: #316ac5; color: white; border: 1px solid white; border-radius: 3px; }
+.xp-tray-empty { padding: 10px; color: #617999; }
+
+.xp-tray-row-content { spacing: 8px; }

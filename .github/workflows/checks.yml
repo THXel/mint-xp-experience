@@ -1,0 +1,17 @@
+name: Checks
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  unit:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install test dependencies
+        run: sudo apt-get update && sudo apt-get install -y python3-gi gir1.2-gtk-3.0 cinnamon-common cinnamon-desktop-data nemo-data dconf-cli
+      - name: Check rollback and locale catalogues
+        run: /usr/bin/python3 -B -m unittest discover -s tests -v
+      - name: Check JavaScript syntax
+        run: find assets/menu/5.8 assets/taskbar -name '*.js' -print0 | xargs -0 -n1 node --check
+      - name: Build source and DEB release
+        run: /usr/bin/python3 -B tools/build_deb.py

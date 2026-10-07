@@ -1,0 +1,51 @@
+.xp-control { background: #ece9d8; color: #111; }
+.xp-control .toolbar { padding: 7px 10px; background: linear-gradient(to bottom,#faf8ef,#ece9d8); border-bottom: 1px solid #b6b3a5; }
+.xp-control .toolbar-title { font-weight: bold; color: #153b77; }
+.xp-control .toolbar entry { background: white; color: #111; border: 1px solid #7f9db9; border-radius: 0; }
+.xp-control .sidebar { background: linear-gradient(to bottom,#7ba3e4,#657ed3); padding: 16px 10px; }
+.xp-control .side-heading { padding: 7px 9px; background: linear-gradient(to right,white,#ccdcf7); color: #17458c; font-weight: bold; border-radius: 4px 4px 0 0; }
+.xp-control .side-link { background: #d6e1f7; color: #16448c; border: 1px solid white; border-radius: 2px; box-shadow: none; padding: 8px 4px; }
+.xp-control .side-link:hover { background: #fff2c5; color: #003399; }
+.xp-control .main { padding: 22px; background: #f3f6ff; }
+.xp-control .heading { font-size: 22px; color: #003399; font-weight: bold; }
+.xp-control .subtitle { color: #36578c; }
+.xp-control scrolledwindow, .xp-control viewport, .xp-control flowbox { background: transparent; }
+.xp-control flowboxchild { padding: 0; border: none; }
+.xp-control .tile { background: transparent; border: 1px solid transparent; border-radius: 3px; box-shadow: none; padding: 12px 8px; }
+.xp-control .tile:hover { background: white; border-color: #afc6eb; }
+.xp-control .tile:focus { background: #fff8df; border-color: #507bc7; outline: 1px dotted #28529b; outline-offset: -4px; }
+.xp-control .tile-title { color: #003399; font-weight: bold; font-size: 15px; }
+.xp-control .tile-description { color: #425b80; font-size: 13px; }
+.xp-control .status { padding: 5px 10px; border-top: 1px solid #b6b3a5; background: #ece9d8; }
+/* Refinement: XP task cards, a real navigation path and a regular classic grid. */
+.xp-control .toolbar { padding: 5px 9px; }
+.xp-control .toolbar button { background: transparent; box-shadow: none; border: 1px solid transparent; border-radius: 2px; padding: 4px 7px; }
+.xp-control .toolbar button:hover { background: #fff2c5; border-color: #d5b464; }
+.xp-control .toolbar button:disabled { opacity: .45; }
+.xp-control .toolbar entry { min-height: 25px; }
+.xp-control .location { padding: 3px 10px; background: #ece9d8; border-bottom: 1px solid #b6b3a5; }
+.xp-control .location button { background: white; border: 1px solid #7f9db9; border-radius: 0; box-shadow: none; padding: 3px 8px; color: #1c3d70; }
+.xp-control .location button:hover { background: #e9f1ff; }
+.xp-control .sidebar { padding: 13px 10px; }
+.xp-control .side-card { border: 1px solid white; border-radius: 4px 4px 0 0; }
+.xp-control .side-heading { padding: 7px 9px; }
+.xp-control .side-body { background: #d6e1f7; padding: 8px 6px; }
+.xp-control .side-link { background: transparent; border: 1px solid transparent; padding: 4px 2px; color: #17458c; }
+.xp-control .side-link:hover { background: #c4d7f7; border-color: #b1c9ed; }
+.xp-control .side-link:disabled { color: #60769b; }
+.xp-control .side-link:focus { outline: 1px dotted #28529b; outline-offset: -2px; }
+.xp-control .detail-title { color: #17458c; font-weight: bold; }
+.xp-control .detail-text { color: #264c86; font-size: 13px; }
+.xp-control .main { padding: 18px 20px 12px; }
+.xp-control .main.classic-view { background: white; }
+.xp-control .content-separator { background: #becfec; min-height: 1px; margin: 2px 0 6px; }
+.xp-control .tile { padding: 10px 7px; }
+.xp-control .tile-title { font-size: 15px; }
+.xp-control .classic-tile { padding: 12px 8px; }
+.xp-control .classic-tile .tile-title { font-size: 13px; color: #111; font-weight: normal; }
+.xp-control .classic-tile:hover { background: #eef4ff; border-color: #b1c9ed; }
+.xp-control .classic-tile:focus { background: #dce9fb; border-color: #316ac5; }
+.xp-control .result-category { color: #6d7890; font-size: 11px; }
+menu.xp-control-menu { background: #f5f4e9; color: #111; border: 1px solid #7b7b7b; border-radius: 0; padding: 3px; box-shadow: 2px 3px 3px alpha(#000,.25); }
+menu.xp-control-menu menuitem { padding: 5px 14px 5px 6px; min-height: 24px; border-radius: 0; }
+menu.xp-control-menu menuitem:hover { background: #316ac5; color: white; }

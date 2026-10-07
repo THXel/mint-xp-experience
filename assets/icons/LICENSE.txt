@@ -1,0 +1,4 @@
+Original Mint XP Experience vector artwork. CC0-1.0.
+Designed in this project; no Microsoft icon files, Windows logos or third-party application logos are included.
+Uncovered application icons are provided by the existing Mint-Y/Adwaita/hicolor themes.
+Rebuild from tools/build_icons.py.

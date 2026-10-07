@@ -1,0 +1,1 @@
+CinnXP cursor sources at b24e8a68de394d65cfa6fcb6aaa577f68207908b. The upstream full theme build script is retained as a reference. To rebuild an individual cursor, run xcursorgen NAME.cursor NAME inside icon-src/cursor-build. The packaged cursor aliases are materialised copies. No source images were changed.

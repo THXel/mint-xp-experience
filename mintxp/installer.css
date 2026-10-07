@@ -1,0 +1,58 @@
+/* Use paired colours from the active GTK theme: the assistant must stay readable
+ * before the XP theme is installed, including explicit Mint-Y-Dark variants.
+ * Every rule is scoped; native file pickers and other applications keep their theme. */
+.mintxp {
+    background-color: @theme_bg_color;
+    color: @theme_fg_color;
+}
+.mintxp label { color: inherit; }
+.mintxp .hero {
+    background: linear-gradient(to bottom, #4696ee, #0860d9 45%, #0041a9);
+    color: white;
+    padding: 12px;
+    border-bottom: 2px solid #f7ad35;
+}
+.mintxp .hero label { color: white; }
+.mintxp .heading { font-size: 22px; font-weight: bold; }
+.mintxp .page { padding: 12px; }
+.mintxp .notice {
+    background-color: mix(@theme_bg_color, @theme_selected_bg_color, 0.12);
+    border: 1px solid mix(@theme_bg_color, @theme_fg_color, 0.35);
+    padding: 8px;
+    color: @theme_fg_color;
+}
+.mintxp frame > border {
+    border: 1px solid mix(@theme_bg_color, @theme_fg_color, 0.35);
+}
+.mintxp button { padding: 5px 9px; }
+.mintxp button.install-action {
+    background: linear-gradient(#f9fff3, #c6e5aa);
+    color: #163d12;
+    border: 1px solid #5c8a32;
+    font-weight: bold;
+    padding: 8px;
+    text-shadow: none;
+}
+.mintxp button.install-action:hover { background: linear-gradient(#ffffff, #d7f1c1); }
+.mintxp button.install-action:active { background: linear-gradient(#badb9a, #e5f3d8); }
+.mintxp button.install-action:disabled {
+    background: @theme_bg_color;
+    border-color: mix(@theme_bg_color, @theme_fg_color, 0.25);
+    color: mix(@theme_bg_color, @theme_fg_color, 0.65);
+}
+/* Keep gated choices legible while clearly indicating that they are unavailable. */
+.mintxp label:disabled {
+    color: mix(@theme_bg_color, @theme_fg_color, 0.65);
+    text-shadow: none;
+    opacity: 1;
+}
+.mintxp button:disabled, .mintxp checkbutton:disabled { opacity: 1; }
+/* Scrollbar steppers use theme tiles, not regular button padding. */
+.mintxp scrollbar button { padding: 0; }
+.mintxp stacksidebar { background-color: @theme_base_color; min-width: 145px; }
+.mintxp stacksidebar list { background-color: @theme_base_color; color: @theme_text_color; }
+.mintxp stacksidebar row { color: @theme_text_color; }
+.mintxp stacksidebar row:selected { background: @theme_selected_bg_color; color: @theme_selected_fg_color; }
+.mintxp .status { padding: 9px; border-top: 1px solid mix(@theme_bg_color, @theme_fg_color, 0.35); }
+.mintxp progressbar trough { background: @theme_base_color; border: 1px solid mix(@theme_bg_color, @theme_fg_color, 0.35); border-radius: 2px; padding: 2px; }
+.mintxp progressbar progress { min-height: 13px; border: 0; border-radius: 0; background-color: #55b934; background-image: linear-gradient(to right, transparent 75%, #fff 75%), linear-gradient(to bottom, #c4ef97, #50b92b 55%, #a6e47a); background-size: 10px 16px, auto; }

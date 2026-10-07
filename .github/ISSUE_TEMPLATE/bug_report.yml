@@ -1,0 +1,23 @@
+name: Bug report
+description: Report an installation or desktop issue
+title: "[Bug] "
+body:
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Mint version, Cinnamon version, package version, display scale and X11/Wayland.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps and expected result
+      description: What did you do, what happened, and what should happen?
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostic
+    attributes:
+      label: Optional diagnostic report
+      description: Use the assistant's local diagnostic export. Do not attach backups, passwords, personal filenames or raw home-directory logs.

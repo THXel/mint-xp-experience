@@ -1,0 +1,3 @@
+Luna-Hills.svg and Luna-Login.svg: original SVG artwork, CC0-1.0.
+Luna-Hills-Photo.png: AI-assisted landscape created for this project and selected by its author/user. Distributed with the project under CC0-1.0 to the extent rights apply. It is not the Microsoft Bliss photograph.
+PNG SHA256: 9c0a81bb3064d158fb504ec9edf1c503d50962c7464e6fcecb884d7fa6284b36

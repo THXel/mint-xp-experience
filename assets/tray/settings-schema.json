@@ -1,0 +1,29 @@
+{
+  "always-open": {
+    "type": "checkbox",
+    "default": false,
+    "description": "Always show every notification-area icon"
+  },
+  "expanded": {
+    "type": "generic",
+    "default": false
+  },
+  "favorites": {
+    "type": "generic",
+    "default": [
+      "applet:network@cinnamon.org",
+      "applet:sound@cinnamon.org",
+      "applet:keyboard@cinnamon.org",
+      "applet:power@cinnamon.org"
+    ]
+  },
+  "order": {
+    "type": "generic",
+    "default": []
+  },
+  "auto-collapse": {
+    "type": "checkbox",
+    "default": true,
+    "description": "Automatically collapse after 10 seconds without tray interaction"
+  }
+}

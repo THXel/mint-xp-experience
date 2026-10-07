@@ -1,0 +1,17 @@
+<Menu>
+  <Name>Applications</Name>
+  <Menu>
+    <Name>Accessories</Name>
+    <Include>
+      <Filename>mintxp-addon-jspaint.desktop</Filename>
+      <Filename>jspaint.desktop</Filename>
+    </Include>
+  </Menu>
+  <Menu>
+    <Name>Graphics</Name>
+    <Include>
+      <Filename>mintxp-addon-jspaint.desktop</Filename>
+      <Filename>jspaint.desktop</Filename>
+    </Include>
+  </Menu>
+</Menu>

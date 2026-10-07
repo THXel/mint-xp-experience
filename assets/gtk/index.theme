@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Mint-XP-Experience
+Comment=Mint-XP-Experience theme for Linux OSes
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Mint-XP-Experience
+MetacityTheme=Mint-XP-Experience
+IconTheme=Mint-Y
+CursorTheme=Mint-XP-Experience-Cursors
+ButtonLayout=:minimize,maximize,close

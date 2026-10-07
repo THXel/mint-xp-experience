@@ -1,0 +1,14 @@
+{
+  "uuid": "mintxp-menu@mintxp",
+  "name": "Mint XP Start Menu",
+  "description": "XP-style Start menu for Mint XP Experience; based on Cinnamenu.",
+  "max-instances": 2,
+  "version": "5.4.14",
+  "multiversion": true,
+  "website": "https://github.com/linuxmint/cinnamon-spices-applets",
+  "cinnamon-version": [
+    "6.6"
+  ],
+  "author": "fredcw",
+  "last-edited": 1778687008
+}

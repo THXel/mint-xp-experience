@@ -1,0 +1,29 @@
+[Plymouth Theme]
+Name=Mint XP Shutdown
+Description=Blue XP-inspired shutdown screen with native Plymouth dialogs
+ModuleName=two-step
+
+[two-step]
+ImageDir=/usr/share/plymouth/themes/mint-xp-shutdown
+Font=Sans 16
+TitleFont=Sans 24
+ScaleBackgroundImage=true
+BackgroundStartColor=0x527fdd
+BackgroundEndColor=0x527fdd
+DialogHorizontalAlignment=.5
+DialogVerticalAlignment=.6
+TitleHorizontalAlignment=.5
+TitleVerticalAlignment=.56
+HorizontalAlignment=.5
+VerticalAlignment=.58
+MessageBelowAnimation=true
+
+[shutdown]
+UseAnimation=false
+UseEndAnimation=false
+UseFirmwareBackground=false
+
+[reboot]
+UseAnimation=false
+UseEndAnimation=false
+UseFirmwareBackground=false

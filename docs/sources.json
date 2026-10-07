@@ -1,0 +1,26 @@
+[
+  {
+    "name": "theme",
+    "repository": "https://github.com/B00merang-Project/Windows-XP",
+    "commit": "7637830906823af40a3cd7e7079be753d8b7d679",
+    "commit_date": "2025-01-23T00:14:05Z",
+    "archive_sha256": "d1b23679eb66ac6cc8278736ed87b7dbf2be17d23fe11c6dc63b5cc0336ebb31",
+    "bundled": true
+  },
+  {
+    "name": "icons",
+    "repository": "https://github.com/B00merang-Artwork/Windows-XP",
+    "commit": "24e95ad2b12c55dd11883ee7066525527d944039",
+    "commit_date": "2025-11-06T22:44:36Z",
+    "archive_sha256": "aeed64f644baa922ac33480088765e57640d95450831ace7d72b511b8458ac2a",
+    "bundled": false
+  },
+  {
+    "name": "cursor",
+    "repository": "https://github.com/ndwarshuis/CinnXP",
+    "commit": "b24e8a68de394d65cfa6fcb6aaa577f68207908b",
+    "commit_date": "2018-08-17T20:13:20Z",
+    "archive_sha256": "4425e7e5f163958f9cfe9936b9358575354ca570083d0a76ed8ced03e7c812fc",
+    "bundled": true
+  }
+]

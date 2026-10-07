@@ -1,0 +1,26 @@
+<Menu>
+  <Name>Applications</Name>
+  <Menu>
+    <Name>Games</Name>
+    <Exclude>
+      <Filename>xp-community-minesweeper.desktop</Filename>
+      <Filename>xp-community-solitaire.desktop</Filename>
+      <Filename>mintxp-addon-minesweeper.desktop</Filename>
+      <Filename>mintxp-addon-solitaire.desktop</Filename>
+      <Filename>com.github.k4zmu2a.spacecadetpinball.desktop</Filename>
+      <Filename>com.github.k4zmu2a.spacecadetpinball.desktop:flatpak</Filename>
+    </Exclude>
+    <Menu>
+      <Name>XPCommunityGames</Name>
+      <Directory>xp-community-games.directory</Directory>
+      <Include>
+        <Filename>xp-community-minesweeper.desktop</Filename>
+        <Filename>xp-community-solitaire.desktop</Filename>
+        <Filename>mintxp-addon-minesweeper.desktop</Filename>
+        <Filename>mintxp-addon-solitaire.desktop</Filename>
+        <Filename>com.github.k4zmu2a.spacecadetpinball.desktop</Filename>
+        <Filename>com.github.k4zmu2a.spacecadetpinball.desktop:flatpak</Filename>
+      </Include>
+    </Menu>
+  </Menu>
+</Menu>
