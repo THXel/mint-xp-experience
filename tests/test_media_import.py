@@ -65,8 +65,13 @@ class MintSounds(unittest.TestCase):
    e.settings.set('org.cinnamon.desktop.sound/theme-name','"Before"')
    e.apply({'files':{'.config/keep':e.descriptor(b'keep')},'settings':{},'options':{}},False)
    before=dict(e.settings.values)
-   with patch.object(e,'safety_snapshot',return_value='test'):
-    from test_sounds import audio
+   # Test state transitions with temporary media; Ubuntu CI has no Mint artwork.
+   from mintxp.sounds import CINNAMON
+   art=root/'MintSounds';art.mkdir();theme=root/'LinuxMint';theme.mkdir()
+   (theme/'index.theme').write_text('[Sound Theme]\nName=LinuxMint\n')
+   for event in (*CINNAMON,'volume','trash'):
+    (art/(event+('.ogg' if event=='logout' else '.oga'))).write_bytes(audio())
+   with patch.object(e,'safety_snapshot',return_value='test'),patch('mintxp.mint_sounds.ART',art),patch('mintxp.mint_sounds.THEME',theme):
     source=root/'Sounds';source.mkdir();(source/'Windows XP Ding.wav').write_bytes(audio())
     apply_import(e,dict(DEFAULTS,sound_source=str(source),sounds=True))
     result=apply_import(e,dict(DEFAULTS,sound_source=':mint:'))
